@@ -1,7 +1,7 @@
 # drupal_payment_gateway_v8.x
 Разработан для Drupal версии 8.x и Commerce версии 2.x .
 
-##Установка модуля:
+## Установка модуля:
 
 1. Папку Wooppay необходимо расположить в директории core/modules
 2. Включить модуль Wooppay в настройках Extensions
