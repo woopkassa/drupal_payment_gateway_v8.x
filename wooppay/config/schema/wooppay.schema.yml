@@ -1,0 +1,19 @@
+# config/schema/wooppay.schema.yml
+wooppay.commerce_payment_gateway.plugin.wooppay_redirect_checkout:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    api_url:
+      type: string
+      label: 'API URL'
+    api_username:
+      type: string
+      label: 'API Username'
+    api_password:
+      type: string
+      label: 'API Password'
+    service_name:
+      type: string
+      label: 'Service name'
+    order_prefix:
+      type: string
+      label: 'Order prefix'

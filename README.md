@@ -1,2 +1,11 @@
-# drupal_payment_gateway_v8.x-
-Woopkassa payment gateway for Drupal CMS as a module. Supported version 8.*
+# drupal_payment_gateway_v8.x
+Разработан для Drupal версии 8.x и Commerce версии 2.x .
+
+##Установка модуля:
+
+1. Папку Wooppay необходимо расположить в директории core/modules
+2. Включить модуль Wooppay в настройках Extensions
+3. Зайти в Commerce->Configuration->Payment->Payment Gateway
+4. Создать платежный шлюз Wooppay заполнив все необходимые поля
+
+Важно! Знающий пользователь может подделывать запрос для подтверждения оплаты заказа. Необходимо всегда изначально проверять поступили ли настоящие деньги.
